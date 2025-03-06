@@ -1,7 +1,7 @@
 account_id = "e9647a01787b681c8b116ffc2649e12c"
 compatibility_date = "2022-09-22"
 main = "./src/index.js"
-name = "atomic-url"
+name = "TnyLnk"
 
 kv_namespaces = [
   {binding = "URL_DB", id = "bf98832a3f6e45e18f3c39b6db1d329a", preview_id = "bf98832a3f6e45e18f3c39b6db1d329a"},
