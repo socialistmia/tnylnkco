@@ -20,9 +20,9 @@ upstream_protocol = "https"
 
 [env.staging]
 kv_namespaces = [
-  {binding = "URL_DB", id = "bf98832a3f6e45e18f3c39b6db1d329a"},
+  {binding = "URL_DB", id = "40524f34f8f948059899321bf281ff85"},
 ]
-name = "atomic-url-staging"
+name = "tnylnk.co staging"
 workers_dev = true
 [env.staging.vars]
 URL_CACHE = "apiCache" 
@@ -30,10 +30,10 @@ URL_EXPIRATION_TTL = 3600 # seconds
 
 [env.production]
 kv_namespaces = [
-  {binding = "URL_DB", id = "709b8cf5ddf74f739f1535c34ff0634b"},
+  {binding = "URL_DB", id = "40524f34f8f948059899321bf281ff85"},
 ]
 name = "atomic-url"
-route = "s.jerrynsh.com/*"
+route = "tnylnk.co/*"
 workers_dev = false
 [env.production.vars]
 URL_CACHE = "apiCache" 
