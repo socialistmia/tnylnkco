@@ -1,4 +1,4 @@
-account_id = "19a745c88f8264f29c608584b7e417ab"
+account_id = "e9647a01787b681c8b116ffc2649e12c"
 compatibility_date = "2022-09-22"
 main = "./src/index.js"
 name = "atomic-url"
